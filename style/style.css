@@ -1,0 +1,32 @@
+.special {
+    display: none;
+}
+
+.features:hover {
+    background-color: rgb(209, 207, 207);
+}
+
+
+
+@media only screen and (max-width:1200px) {
+    .special2 {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:1000px) {
+    .special {
+        display: block;
+    }
+
+    .special1 {
+        display: none;
+    }
+}
+
+.languages:hover {
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+
